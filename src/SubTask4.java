@@ -12,7 +12,7 @@ public class SubTask4 {
         }
         else
         {
-            System.out.println("Вы не ввели число. Введите число");
+            System.out.println("Вы не ввели число. Введите число ");
         }
 
     }
