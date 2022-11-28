@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d1b588f-1ad9-47b5-b819-fe85054d6061" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SubTask1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SubTask2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SubTask3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SubTask4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SubTask5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SubTask6.java" afterDir="false" />
-    </list>
+    <list default="true" id="0d1b588f-1ad9-47b5-b819-fe85054d6061" name="Changes" comment="task 1 - 5 edit input from  consol" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,14 +33,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/JavaProjekts/EpamPrj&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/JavaProjekts/EpamPrj"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.Demo">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Demo" />
@@ -112,6 +95,21 @@
       <option name="presentableId" value="Default" />
       <updated>1667848615577</updated>
     </task>
+    <task id="LOCAL-00001" summary="task 1 - 5 edit input from  consol">
+      <created>1669657861230</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669657861230</updated>
+    </task>
+    <task id="LOCAL-00002" summary="task 1 - 5 edit input from  consol">
+      <created>1669658179298</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669658179298</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,6 +122,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="task 1 - 5 edit input from  consol" />
+    <option name="LAST_COMMIT_MESSAGE" value="task 1 - 5 edit input from  consol" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
