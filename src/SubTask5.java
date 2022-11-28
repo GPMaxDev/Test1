@@ -13,6 +13,7 @@ public class SubTask5 {
                 for (int i = 1; i <= number; i++) {
                     System.out.print(i + " ");
                 }
+                    System.out.println();
             } else {
                 System.out.println("Введите положительное число");
             }

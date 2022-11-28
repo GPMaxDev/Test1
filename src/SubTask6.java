@@ -3,11 +3,18 @@ public class SubTask6 {
 
     public static void main(String[] args) {
 
+       System.out.println(getStringNameOfColum(702));
+       System.out.println(getNumberOfColumn("ZZ"));
+        System.out.println(getNumberOfChar('r'));
+        System.out.println(getNumberOfRightColumn("ZY"));
 
     }
 
     private static int getNumberOfChar(char cha) {
-        return alphabet.indexOf(cha) + 1;
+        String upperCaseChar = String.valueOf(cha).
+                                     trim()
+                                    .toUpperCase();
+        return alphabet.indexOf(upperCaseChar) + 1;
     }
 
     private static int getNumberOfColumn(String columnName) {
@@ -28,26 +35,27 @@ public class SubTask6 {
 
     private static String getStringNameOfColum(int numberOfColumn){
 
-        String stringNumber = "";
+        int firstIndexOfChar;
+        int secondIndexOfChar;
+
+        StringBuilder stringBuilder = new StringBuilder();
+
         if(numberOfColumn > 0 && numberOfColumn <= 26){
-            stringNumber = alphabet.substring(numberOfColumn - 1,numberOfColumn);
+            stringBuilder.append(alphabet.charAt(numberOfColumn - 1));
 
         } else if (numberOfColumn > 26) {
-
-            int firstIndexOfChar;
-            int secondIndexOfChar;
-
             firstIndexOfChar = numberOfColumn / 26;
             secondIndexOfChar = (numberOfColumn % 26);
-
-            stringNumber = alphabet.substring(firstIndexOfChar - 1, firstIndexOfChar) +
-                    alphabet.substring(secondIndexOfChar - 1, secondIndexOfChar);
-
+            if(secondIndexOfChar == 0){
+                firstIndexOfChar -=1;
+                secondIndexOfChar = 26;
+            }
+            stringBuilder.append(alphabet.charAt(firstIndexOfChar - 1));
+            stringBuilder.append(alphabet.charAt(secondIndexOfChar - 1));
 
         }
 
-
-        return stringNumber.toUpperCase();
+        return stringBuilder.toString().toUpperCase();
     }
 
     private static int getNumberOfRightColumn(String columnName){
