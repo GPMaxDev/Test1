@@ -3,11 +3,6 @@ public class SubTask6 {
 
     public static void main(String[] args) {
 
-       System.out.println(getStringNameOfColum(702));
-       System.out.println(getNumberOfColumn("ZZ"));
-        System.out.println(getNumberOfChar('r'));
-        System.out.println(getNumberOfRightColumn("ZY"));
-
     }
 
     private static int getNumberOfChar(char cha) {
